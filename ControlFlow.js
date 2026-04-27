@@ -7,9 +7,6 @@ if(isUserLoggedIn){
 
 
 
-
-
-
 if(2 == "2"){
     console.log("2 is equal to 2"); // This will be printed because of type coercion
 }
@@ -20,10 +17,6 @@ if(2 === "2"){
 }
 
 
-
-
-
-
 let temp = 40;
 if(temp < 30){
     console.log("temp is less that 30")
@@ -32,20 +25,12 @@ if(temp < 30){
 }
 
 
-
-
-
-
 const balance = 1000;
 if(balance > 500) console.log("balance is more than 500")   //implicit scope
 
 
 
-
-
-
 const amount = 1000;
-
 
 
 if(amount< 100) {
@@ -57,8 +42,6 @@ if(amount< 100) {
 }else if(amount == 1000){
     console.log("amount is 1000");
 }
-
-
 
 
 
@@ -76,8 +59,6 @@ if(userLoggedIn && debitCard && 2 == 3){
 if(loggedInWithGoogle || loggedInWithEmail){
     console.log("User is logged in with Google or Email");
 }
-
-
 
 
 
