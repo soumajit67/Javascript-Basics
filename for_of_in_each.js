@@ -1,16 +1,10 @@
 //forof loop
 
-
 let arr = [1,22,3,42]
-
 
 for(const i of arr){
     console.log(i);
 }
-
-
-
-
 
 
 const greeting = "hello"
@@ -19,11 +13,6 @@ const greeting = "hello"
 for (const greet of greeting) {
     console.log(greet);
 }
-
-
-
-
-
 
 
 const map = new Map()
@@ -35,7 +24,6 @@ map.set("FR", "France")
 
 console.log(map);
 
-
 for (const key of map) {
     console.log(key);
 }
@@ -45,11 +33,6 @@ for (const [key, val] of map) {      //destructured
     console.log(key);
     console.log(val);
 }
-
-
-
-
-
 
 
 
@@ -67,7 +50,6 @@ const obj = {
 // }
 
 
-
 for (const key in obj) {
     console.log(`${key} is ${obj[key]}`)
 }
@@ -76,12 +58,6 @@ for (const key in obj) {
 for (const key in arr) {
     console.log(`for index ${key} the value is ${arr[key]}`)
 }
-
-
-
-
-
-
 
 
 
@@ -94,20 +70,14 @@ newArr.forEach(function (element){
 
 
 
-
-
 arr.forEach( function (val) {
     console.log(val);
 });
 
 
-
-
 newArr.forEach((element) => {
     console.log(element);
 });
-
-
 
 
 
@@ -118,18 +88,12 @@ function printMe(item){
 
 arr.forEach(printMe)
 
-
-
-
-
-
 arr.forEach((item, index, arr) => {
     console.log(item);
     console.log(index);
     console.log(arr);
     
 })
-
 
 
 
