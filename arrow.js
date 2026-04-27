@@ -7,15 +7,12 @@ const user = {
     }
 }
 
-
 user.welcomeMessage();
 user.name = "Jane Doe";
 user.welcomeMessage();
 
 
 console.log(this);
-
-
 
 
 function someFunc (){
@@ -26,17 +23,11 @@ function someFunc (){
 someFunc();
 
 
-
-
 const someFunction = () => {
     let username = "janedoe";
     console.log(username);
 }
 someFunction();
-
-
-
-
 
 
 const addTwo = (num1, num2) => {
@@ -49,12 +40,10 @@ console.log(addTwo(1,2));
 
 
 
-
 const addmore = (num1, num2) => (num1 + num2)
 
 
 console.log(addmore(1,1));
-
 
 
 
