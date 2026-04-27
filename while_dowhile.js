@@ -8,9 +8,6 @@ while (index < 10) {
 }
 
 
-
-
-
 let myArr = [1, 2, 3, 4]
 let arr = 0
 
@@ -19,10 +16,6 @@ while(arr < myArr.length){
     console.log(myArr[arr])
     arr++;
 }
-
-
-
-
 
 
 //do while loop
