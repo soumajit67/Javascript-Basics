@@ -12,8 +12,6 @@ console.log(0 === false)
 
 
 
-
-
 console.log(undefined == null)
 console.log(undefined === null)
 console.log(undefined > null)
@@ -21,7 +19,6 @@ console.log(undefined < null)
 console.log("2" > null)
 console.log("2" < null)
 console.log("2" == null)
-
 
 
 
