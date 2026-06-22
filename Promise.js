@@ -60,3 +60,23 @@
             divide(20, 5)
                 .then(result => console.log("Result:", result))
                 .catch(error => console.log(error));
+
+
+// Promise Chaining
+
+            const student = new Promise((resolve) => {
+                resolve(80);
+            });
+            
+            student
+                .then(mark => {
+                    console.log("Marks:", mark);
+                    return mark + 10;
+                })
+                .then(updatedMarks => {
+                    console.log("Updated Marks:", updatedMarks);
+                    return updatedMarks * 2;
+                })
+                .then(finalMarks => {
+                    console.log("Final Marks:", finalMarks);
+                });
