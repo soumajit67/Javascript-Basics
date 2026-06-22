@@ -16,7 +16,7 @@
             
             
             
-            // Promise with setTimeout
+// Promise with setTimeout
             
             const delay = new Promise((resolve) => {
                 setTimeout(() => {
