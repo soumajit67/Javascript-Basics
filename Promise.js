@@ -1,4 +1,5 @@
 // Basic Promise 
+
 const myPromise = new Promise((resolve, reject) => {
     let success = true;
 
@@ -14,6 +15,7 @@ myPromise
     .catch(error => console.log(error));
 
 
+
 // Promise with setTimeout
 
 const delay = new Promise((resolve) => {
@@ -23,3 +25,21 @@ const delay = new Promise((resolve) => {
 });
 
 delay.then(data => console.log(data));
+
+
+
+// Promise Returning Random Success or Failure
+
+const checkNumber = new Promise((resolve, reject) => {
+    const number = Math.random();
+
+    if (number > 0.5) {
+        resolve(`Success! Number is ${number}`);
+    } else {
+        reject(`Failed! Number is ${number}`);
+    }
+});
+
+checkNumber
+    .then(result => console.log(result))
+    .catch(error => console.log(error));
